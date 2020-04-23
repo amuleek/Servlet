@@ -1,0 +1,2 @@
+servlet Container manages the entire circle of the servlet which is used by javax.servlet .
+Servlet interface to understand the Servlet object and manage it
