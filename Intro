@@ -53,3 +53,11 @@ The destroy() method runs only once during the lifetime of a Servlet and signals
 
 public void destroy()
 As soon as the destroy() method is activated, the Servlet container releases the Servlet instance.
+
+
+
+
+
+
+
+Servlet life cycle can be defined as the stages through which the servlet passes from its creation to its destruction.
