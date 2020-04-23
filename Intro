@@ -1,2 +1,7 @@
 servlet Container manages the entire circle of the servlet which is used by javax.servlet .
 Servlet interface to understand the Servlet object and manage it
+  Stages of the Servlet Life Cycle: The Servlet life cycle mainly goes through four stages,
+>Loading a Servlet.
+>Initializing the Servlet.
+>Request handling.
+>Destroying the Servlet.
