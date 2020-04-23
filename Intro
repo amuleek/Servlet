@@ -1,7 +1,13 @@
 servlet Container manages the entire circle of the servlet which is used by javax.servlet .
 Servlet interface to understand the Servlet object and manage it
   Stages of the Servlet Life Cycle: The Servlet life cycle mainly goes through four stages,
->Loading a Servlet.
->Initializing the Servlet.
->Request handling.
->Destroying the Servlet.
+1>Loading a Servlet.
+Loading a Servlet: The first stage of the Servlet lifecycle involves loading and initializing the Servlet by the Servlet container. The Web container or Servlet Container can load the Servlet at either of the following two stages : 
+Initializing the context, on configuring the Servlet with a zero or positive integer value.
+If the Servlet is not preceding stage, it may delay the loading process until the Web container determines that this Servlet is needed to service a request.
+The Servlet container performs two operations in this stage :
+Loading : Loads the Servlet class.
+Instantiation : Creates an instance of the Servlet. To create a new instance of the Servlet, the container uses the no-argument constructor.
+2>Initializing the Servlet.
+3>Request handling.
+4>Destroying the Servlet.
