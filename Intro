@@ -61,3 +61,10 @@ As soon as the destroy() method is activated, the Servlet container releases the
 
 
 Servlet life cycle can be defined as the stages through which the servlet passes from its creation to its destruction.
+The servlet life cycle consist these stages:
+Servlet is borned
+Servlet is initalized
+Servlet is ready to service
+Servlet is servicing
+Servlet is not ready to service
+Servlet is destroyed
