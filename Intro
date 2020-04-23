@@ -25,5 +25,6 @@ After the destroy() method is executed, the Servlet conatiner releases all the r
 
 There are three life cycle methods of a Servlet :
 init()
+The Servlet.init() method is called by the Servlet container to indicate that this Servlet instance is instantiated successfully and is about to put into service. 
 service()
 destroy()
