@@ -22,3 +22,8 @@ When a Servlet container decides to destroy the Servlet, it performs the followi
 It allows all the threads currently running in the service method of the Servlet instance to complete their jobs and get released.
 After currently running threads have completed their jobs, the Servlet container calls the destroy() method on the Servlet instance.
 After the destroy() method is executed, the Servlet conatiner releases all the references of this Servlet instance so that it becomes eligible for garbage collection.
+
+There are three life cycle methods of a Servlet :
+init()
+service()
+destroy()
