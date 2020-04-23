@@ -48,3 +48,8 @@ public class MyServlet implements Servlet{
     // rest of code
 }
 destroy()
+The destroy() method runs only once during the lifetime of a Servlet and signals the end of the Servlet instance. 
+//destroy() method
+
+public void destroy()
+As soon as the destroy() method is activated, the Servlet container releases the Servlet instance.
