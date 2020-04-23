@@ -35,4 +35,7 @@ public class MyServlet implements Servlet{
     //rest of code
 }
 service()
+The service() method of the Servlet is invoked to inform the Servlet about the client requests. 
+This method uses ServletRequest object to collect the data requested by the client.
+This method uses ServletResponse object to generate the output content.
 destroy()
