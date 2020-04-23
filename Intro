@@ -9,5 +9,8 @@ The Servlet container performs two operations in this stage :
 Loading : Loads the Servlet class.
 Instantiation : Creates an instance of the Servlet. To create a new instance of the Servlet, the container uses the no-argument constructor.
 2>Initializing the Servlet.
+After the Servlet is instantiated successfully, the Servlet container initializes the instantiated Servlet object. The container initializes the Servlet object by invoking the Servlet.init(ServletConfig) method which accepts ServletConfig object reference as parameter. 
+The Servlet container invokes the Servlet.init(ServletConfig) method only once, immediately after the Servlet.init(ServletConfig) object is instantiated successfully. This method is used to initialize the resources, such as JDBC datasource.
+Now, if the Servlet fails to initialize, then it informs the Servlet container by throwing the ServletException or UnavailableException.
 3>Request handling.
 4>Destroying the Servlet.
