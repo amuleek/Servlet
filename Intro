@@ -68,3 +68,22 @@ Servlet is ready to service
 Servlet is servicing
 Servlet is not ready to service
 Servlet is destroyed
+
+program
+/ Java program to show servlet example 
+// Importing required Java libraries 
+import java.io.*; 
+import javax.servlet.*; 
+import javax.servlet.http.*; 
+  
+// Extend HttpServlet class 
+public class AdvanceJavaConcepts extends HttpServlet  
+{  
+   private String output; 
+    
+   // Initializing servelet 
+   public void init() throws ServletException  
+   { 
+      output = "Advance Java Concepts"; 
+   } 
+  
